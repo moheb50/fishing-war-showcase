@@ -58,6 +58,14 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        "ocean-gradient": "var(--ocean-gradient)",
+        "sunset-gradient": "var(--sunset-gradient)",
+      },
+      boxShadow: {
+        "gold-glow": "var(--gold-glow)",
+        "ocean-glow": "var(--ocean-glow)",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
